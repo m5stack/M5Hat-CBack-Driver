@@ -1,48 +1,15 @@
-# Product Name
+# Hat CBack Driver
 
 ## Overview
 
-### SKU:xxx
+### SKU:A100
 
-Description of the product
-
-## Related Link
-
-- [Document & Datasheet](https://docs.m5stack.com/en/unit/product_Link)
-
-## Required Libraries:
-
-- [Adafruit_BMP280_Library](https://github.com/adafruit/Required_Libraries_Link)
-
-## License
-
-- [Product Name- MIT](LICENSE)
-
-## Remaining steps(Editorial Staff Look,After following the steps, remember to delete all the content below)
-
-1. Change [clang format check path](./.github/workflows/clang-format-check.yml#L9-L15).
-2. Add License content to [LICENSE](/LICENSE).
-3. Change link on line 78 of [bug-report.yml](./.github/ISSUE_TEMPLATE/bug-report.yml#L78).
-
-```cpp
-Example
-# M5Unit-ENV
-
-## Overview
-
-### SKU:U001 & U001-B & U001-C
-
-Contains M5Stack-**UNIT ENV** series related case programs.ENV is an environmental sensor with integrated SHT30 and QMP6988 internally to detect temperature, humidity, and atmospheric pressure data.
+Hat CBack Driver is a steering gear drive board compatible with M5StickC. It adopts STM32F030F4P6 control scheme, uses I2C communication interface to communicate with M5StickC, and provides 4 sets of PWM steering gear drive interfaces (the drive power of the steering gear is directly connected to the M5StickC The internal battery can drive general specifications of the steering gear, such as: SG90, etc.). This module leads the I2C bus at the top of StickC and provides an additional GPIO interface through STM32 expansion. It can be used for general logic level and ADC analog signal input reading. With the LEGO compatible hole design on the back, users can easily integrate this driver board into the LEGO building block structure, which can be used to build controllable structures such as steering gear manipulators.
 
 ## Related Link
 
-- [Document & Datasheet](https://docs.m5stack.com/en/unit/envIII)
-
-## Required Libraries:
-
-- [Adafruit_BMP280_Library](https://github.com/adafruit/Adafruit_BMP280_Library)
+- [Document & Datasheet](https://docs.m5stack.com/en/products/sku/A100)
 
 ## License
 
-- [M5Unit-ENV - MIT](LICENSE)
-```
+- [Hat CBack Driver - MIT](LICENSE)

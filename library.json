@@ -1,0 +1,16 @@
+{
+  "name": "M5Hat-CBack-Driver",
+  "description": "Library for M5Stack M5Hat-CBack-Driver",
+  "keywords": "M5Stack M5Hat-CBack-Driver",
+  "authors": {
+    "name": "M5Stack",
+    "url": "http://www.m5stack.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m5stack/M5Hat-CBack-Driver.git"
+  },
+  "version": "1.0.0",
+  "frameworks": "arduino",
+  "platforms": "espressif32"
+}
