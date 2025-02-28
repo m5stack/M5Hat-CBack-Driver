@@ -42,12 +42,10 @@ void loop()
 {
     for (int i = 0; i <= 3; i++) {   // channel 0-3
         driver.setServoAngle(i, 0);  // 0-180 degree
-        // driver.setServoPulse(i,500); // 500-2500us
         delay(200);
     }
-    for (int i = 0; i <= 3; i++) {     // channel 0-3
-        driver.setServoAngle(i, 180);  // 0-180 degree
-        // driver.setServoPulse(i,2500);  // 500-2500us
+    for (int i = 0; i <= 3; i++) {      // channel 0-3
+        driver.setServoPulse(i, 2500);  // 500-2500us
         delay(200);
     }
     driver.digitalWritePortB(1);
